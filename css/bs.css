@@ -9,7 +9,7 @@
     min-height: 100px;
     background: #0169ff;
     float: left;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .m-navbar{
@@ -61,6 +61,11 @@
     .m-content, .m-nav, .m-sidebar{
         min-height: 400px;
     }
-
     
+}
+
+@media only screen and (max-width: 576px) {
+    .m-content{
+        margin: 15px 0;
+    }
 }
